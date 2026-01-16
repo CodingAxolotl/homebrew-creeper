@@ -7,7 +7,7 @@ class Creeper < Formula
 
   def install
     bin.install "bin/creeper"
-    prefix.install "lib"
+    libexec.install "lib"
   end
 
   test do
